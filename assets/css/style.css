@@ -1,0 +1,30 @@
+:root {
+    --dark: rgb(10, 10, 10);
+    --light-blue: rgb(130, 175, 235);
+}
+
+
+*{
+    color: var(--dark);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding: 1% 0;
+    background-color: var(--light-blue);
+}
+
+
+.profile-img{
+    background-image: url(../images/profile-placeholder.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
