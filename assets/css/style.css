@@ -1,8 +1,11 @@
+/* This is a mobile first approach, there will be break points for desktop */
+
 :root {
     --dark: rgb(10, 10, 10);
-    --light-blue: rgb(130, 175, 235);
+    --light-blue: rgb(76, 139, 223);
+    --border-color: rgb(16, 16, 133);
+    --very-light-blue: rgb(180, 184, 219);
 }
-
 
 *{
     color: var(--dark);
@@ -15,11 +18,14 @@ header {
 
 h1 {
     font-size: 2.2rem;
-    padding: 1% 0;
+    padding: 2% 0;
     background-color: var(--light-blue);
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 0px 0px 3px 0px;
+    
 }
-
-
+/* this is the profile image positioned on the right of h1 for mobile */
 .profile-img{
     background-image: url(../images/profile-placeholder.jpg);
     background-position: right;
@@ -27,4 +33,21 @@ h1 {
     position: relative;
     background-size: contain;
 }
+
+.header-nav-list li{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 0px 0px 3px 0px;
+    background-color: var(--very-light-blue);
+    padding: 1% 0;
+}
+
+.header-nav-list li a{
+    text-decoration: none;
+}
+
+
 
