@@ -66,16 +66,41 @@ section article p{
 .last-paragraph{
     padding-bottom: 10px;
 }
-
+/* This is the most recent project box which will be our big box */
 .big-box{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url(../images/p1.PNG);
     background-size: cover;
     border-color: var(--border-color);
     border-style: outset;
     border-width: 3px 0px 3px 0px;
 }
+
+h3{
+    font-size: 1.2rem;
+}
+/* this is the big box for the most recent project */
+.project-description{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--very-light-blue);
+    float: left; /* Makes the background color adjust to the text */
+    margin-top: 150px;
+    padding-right: 7px;
+}
+
+.project-description h3{
+    padding-top: 2px;
+    font-size: 1.2rem;
+}
+
+.project-description p{
+    padding-bottom: 2px;
+    font-size: 0.8rem;
+}
+
+
 
 
 
