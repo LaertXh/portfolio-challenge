@@ -149,6 +149,28 @@ h3{
     border-width: 3px 3px 3px px;
 }
 
+.small-box-3{
+    width: 50%;
+    height: 175px;
+    background-image: url(../images/p4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 3px 3px 3px px;
+}
+
+.small-box-4{
+    width: 50%;
+    height: 175px;
+    background-image: url(../images/p5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 3px 3px 3px px;
+}
+
 
 
 
