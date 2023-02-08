@@ -193,7 +193,7 @@ h4{
 
 /* End of css file for the mobile version  */
 
-/* break point for tablet and desktop versions */
+/* break point for tablet */
 
 @media screen and (min-width: 768px){
     header{
@@ -220,6 +220,63 @@ h4{
         background-color: var(--light-blue);
         border: 0;
     }
+
+}
+
+/* breakpoint for desktop screen sizes */
+@media screen and (min-width: 1024px){
+    header{
+        display: block;
+        background-color: var(--light-blue);
+        padding: 20px 0;
+        border-color: var(--border-color);
+        border-style: outset;
+        border-width: 0px 0px 3px 0px;
+    }
+    h1{
+        display:inline-block;
+        padding-right: 65px;
+        border: 0;
+    }
+    nav{
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-size: 20px;
+    }
+    .header-nav-list li{
+        display: inline-block;
+        margin-left: 25px;
+        background-color: var(--light-blue);
+        border: 0;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+    .left-column{
+        font-size: 2rem;
+        width: 15%;
+        background-color: white;
+        color: var(--dark);
+        text-align: right;
+        padding-right: 50px;
+        padding-top: 25px;
+
+        border-color: var(--border-color);
+        border-style: outset;
+        border-width: 0px 5px 0px 0px;
+
+        margin-top: 50px;
+    }
+    .right-column{
+        width: 100%;
+
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
 
 }
 
