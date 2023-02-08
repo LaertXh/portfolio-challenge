@@ -159,7 +159,7 @@ h3{
     border-style: outset;
     border-width: 3px 3px 3px px;
 }
-
+/* The final box for the work section is this */
 .small-box-4{
     width: 50%;
     height: 175px;
@@ -171,8 +171,13 @@ h3{
     border-width: 3px 3px 3px px;
 }
 
-
-
+/* contact section */
+.contact-content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--very-light-blue);
+}
 
 
 
