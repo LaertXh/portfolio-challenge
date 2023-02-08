@@ -69,7 +69,7 @@ section article p{
 
 .work-boxes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -108,7 +108,7 @@ h3{
 }
 
 /* this is our second box in the works section, it will be 50% the size of the first box*/
-.small-box1{
+.small-box-1{
     width: 50%;
     height: 175px;
     background-image: url(../images/p2.PNG);
@@ -116,7 +116,7 @@ h3{
     background-repeat: no-repeat;
     border-color: var(--border-color);
     border-style: outset;
-    border-width: 3px 0px 3px 0px;
+    border-width: 3px 3px 3px px;
 }
 
 .small-project-description{
@@ -129,15 +129,25 @@ h3{
 }
 
 .small-project-description h3{
-    padding-top: 2px;
+    padding-top: 3px;
     font-size: 0.8rem;
 }
 
 .small-project-description p{
     padding-bottom: 2px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
+.small-box-2{
+    width: 50%;
+    height: 175px;
+    background-image: url(../images/p3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 3px 3px 3px px;
+}
 
 
 
