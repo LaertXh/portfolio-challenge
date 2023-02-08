@@ -20,7 +20,7 @@ header {
 
 h1 {
     font-size: 2.2rem;
-    padding: 2% 0;
+    padding: 10px 0;
     background-color: var(--light-blue);
     border-color: var(--border-color);
     border-style: outset;
@@ -44,7 +44,7 @@ h1 {
     border-style: outset;
     border-width: 0px 0px 3px 0px;
     background-color: var(--very-light-blue);
-    padding: 1% 0;
+    padding: 3px 0;
 }
 /* removing the underline on the words for links */
 .header-nav-list li a{
@@ -184,10 +184,44 @@ footer{
     justify-content: center;
     padding-top: 10px;
     font-size: 0.8rem;
+    background-color: var(--sections-title-back);
+    
+}
+h4{
+    color: var(--section-title-txt);
 }
 
 /* End of css file for the mobile version  */
 
+/* break point for tablet and desktop versions */
+
+@media screen and (min-width: 768px){
+    header{
+        display: block;
+        background-color: var(--light-blue);
+        border-color: var(--border-color);
+        border-style: outset;
+        border-width: 0px 0px 3px 0px;
+    }
+    h1{
+        display:inline-block;
+        padding-right: 65px;
+        border: 0;
+    }
+    nav{
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-size: 20px;
+    }
+    .header-nav-list li{
+        display: inline-block;
+        margin-left: 25px;
+        background-color: var(--light-blue);
+        border: 0;
+    }
+
+}
 
 
 
