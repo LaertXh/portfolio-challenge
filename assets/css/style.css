@@ -66,6 +66,13 @@ section article p{
 .last-paragraph{
     padding-bottom: 10px;
 }
+
+.work-boxes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* This is the most recent project box which will be our big box */
 .big-box{
     width: 100%;
@@ -81,7 +88,7 @@ h3{
     font-size: 1.2rem;
 }
 /* this is the big box for the most recent project */
-.project-description{
+.big-project-description{
     display: flex;
     flex-direction: column;
     background-color: var(--very-light-blue);
@@ -100,7 +107,36 @@ h3{
     font-size: 0.8rem;
 }
 
+/* this is our second box in the works section, it will be 50% the size of the first box*/
+.small-box1{
+    width: 50%;
+    height: 175px;
+    background-image: url(../images/p2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: var(--border-color);
+    border-style: outset;
+    border-width: 3px 0px 3px 0px;
+}
 
+.small-project-description{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--very-light-blue);
+    float: left; /* Makes the background color adjust to the text */
+    margin-top: 75px;
+    padding-right: 7px;
+}
+
+.small-project-description h3{
+    padding-top: 2px;
+    font-size: 0.8rem;
+}
+
+.small-project-description p{
+    padding-bottom: 2px;
+    font-size: 0.5rem;
+}
 
 
 
