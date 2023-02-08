@@ -2,9 +2,11 @@
 
 :root {
     --dark: rgb(10, 10, 10);
-    --light-blue: rgb(76, 139, 223);
+    --light-blue: rgb(61, 114, 184);
     --border-color: rgb(16, 16, 133);
     --very-light-blue: rgb(180, 184, 219);
+    --sections-title-back: rgb(36, 36, 173);
+    --section-title-txt: rgb(238, 237, 237);
 }
 
 *{
@@ -33,7 +35,7 @@ h1 {
     position: relative;
     background-size: contain;
 }
-
+/* adding flex to the navigation links, fixing fonts and applying border*/
 .header-nav-list li{
     display: flex;
     justify-content: center;
@@ -44,10 +46,27 @@ h1 {
     background-color: var(--very-light-blue);
     padding: 1% 0;
 }
-
+/* removing the underline on the words for links */
 .header-nav-list li a{
     text-decoration: none;
 }
+
+section h2{
+    font-size: 1.5rem;
+    color: var(--section-title-txt);
+    padding: 5px 0;
+    background-color: var(--sections-title-back);
+}
+
+section article p{
+    padding-top: 10px;
+
+}
+.last-paragraph{
+    padding-bottom: 10px;
+}
+
+
 
 
 
