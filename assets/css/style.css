@@ -51,7 +51,7 @@ h1 {
     text-decoration: none;
 }
 
-section h2{
+h2{
     font-size: 1.5rem;
     color: var(--section-title-txt);
     padding: 5px 0;
@@ -178,6 +178,16 @@ h3{
     justify-content: space-around;
     background-color: var(--very-light-blue);
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
+/* End of css file for the mobile version  */
+
 
 
 
