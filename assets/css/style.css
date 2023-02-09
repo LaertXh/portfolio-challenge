@@ -152,7 +152,7 @@ h3{
 .small-box-3{
     width: 50%;
     height: 175px;
-    background-image: url(../images/p4.webp);
+    background-image: url(../images/pretty-tree.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: var(--border-color);
@@ -163,7 +163,7 @@ h3{
 .small-box-4{
     width: 50%;
     height: 175px;
-    background-image: url(../images/p5.jfif);
+    background-image: url(../images/beach-image.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: var(--border-color);
